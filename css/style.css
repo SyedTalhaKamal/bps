@@ -1,0 +1,396 @@
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike,strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {
+  margin: 0;padding: 0;border: 0;font-size: 100%;font: inherit;vertical-align: baseline;}article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;}body {	line-height: 1;}ol, ul {	list-style: none;}blockquote, q {	quotes: none;}blockquote:before, blockquote:after,q:before, q:after {	content: '';	content: none;}table {	border-collapse: collapse;	border-spacing: 0;}
+  @import '../fonts/fonts.css';
+  body{font-family: 'Roboto', sans-serif;}
+
+/* ====================================== Header ================================================ */
+  .customNav {
+    background-color: transparent !important;
+    font-weight: 500;
+    font-size: 18px;
+  }
+  .navPosition{
+    position: relative;
+  }
+  .contactLi{
+    position: absolute;
+    top: 14px;
+    right: 16px;
+    font-family: 'Open Sans', sans-serif;
+  }
+  .fa-phone{
+    transform: rotate(90deg);
+    font-size: 11px;
+  }
+  .phoneColor,.phoneColor p{
+    color: #131f66 !important;
+  }
+/* ====================================== Banner ================================================ */
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  color: transparent;
+  border: 1px solid white;
+  background-color: transparent;
+}
+.carousel-inner{
+  background-image: url('../images/banner.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 378px 0;
+
+}
+.carousel-inner h1{
+  color: white;
+  font-size: 60px;
+  font-weight: 500;
+}
+.carousel-inner p{
+  color: white;
+  font-size: 18px;
+  font-weight: 300;
+  margin-top: 15px;
+  line-height: 27px;
+}
+.bannerBtn{
+  color: white;
+  background-color: #131f66;
+  border: 1px solid #131f66;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 12px 17px;
+  margin-top: 25px;
+  transition: 0.3s ease-in-out;
+}
+.bannerBtn:hover{
+  color: #131f66;
+  background-color: white;
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+}
+/* ====================================== hire Section ================================================ */
+.afterBanner{
+  position: relative;
+  bottom: 1px;
+}
+.hireSection{
+  background-color: #131f66;
+  padding: 124px 17px;
+}
+.hireSection h1,.jobsection h1{
+  color: white;
+  font-size: 60px;
+  font-weight: 500;
+  text-align: center;
+}
+.hireBtn{
+  color: white;
+  background-color: transparent;
+  border: 1px solid white;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 12px 17px;
+  margin-top: 25px;
+  transition: 0.3s ease-in-out;
+}
+.hireBtn:hover{
+  color: #131f66;
+  background-color: white;
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+}
+.jobsection{
+  background-color: #9fa7a7;
+  padding: 124px 17px;
+} 
+/* ====================================== About US ================================================ */
+.about h1{
+  color: #131f66;
+  font-weight: 700;
+  font-size: 40px;
+}
+.aboutP1{
+  font-size: 18px;
+  color: #9fa7a7;
+  font-weight: 500;
+  margin-top: 16px;
+  line-height: 25px;
+}
+.aboutP2{
+  font-size: 18px;
+  color: #9fa7a7;
+  font-weight: 300;
+  margin-top: 16px;
+  line-height: 25px;
+}  
+/* ====================================== Approch ================================================ */ 
+.approch{
+  background-image: url('../images/approch.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 126px 180px 126px 0;
+}
+.approch h1{
+  color: white;
+  font-size: 28px;
+  font-weight: 500;
+}
+.approch p{
+  color: white;
+  font-size: 18px;
+  line-height: 25px;
+}
+/* ====================================== Services ================================================ */
+.services h1{
+  color: #131f66;
+  font-weight: 700;
+  font-size: 40px;
+}
+.services h2{
+  color: #131f66;
+  font-weight: 900;
+  font-size: 25px;
+  margin: 30px 0;
+}
+.services p{
+  color: #ababab;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 22px;
+}
+.moreDetail{
+  color: white;
+  background-color: #131f66;
+  border: 1px solid #131f66;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 17px 23px;
+  margin-top: 25px;
+  transition: 0.3s ease-in-out;
+}
+.moreDetail:hover{
+  color: #131f66;
+  background-color: white;
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+}  
+/* ====================================== Testimonial ================================================ */ 
+.testimonial{
+  background-image: url('../images/testimonialBack.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 30px 0px;
+}
+.testimonialImg{
+  width: 140px!important;
+  height: 140px;
+  margin: 0 auto;
+}
+.testimonialH{
+  color: white;
+  font-size: 40px;
+  font-weight: 700;
+}
+.testimonialH2{
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+}
+.testimonialP{
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 35px;
+  margin: 0 auto;
+  width: 55%;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+  background: transparent;
+  border: 2px solid white;
+}
+button.owl-prev{
+  display: none!important;
+}
+button.owl-next {
+  display: none!important;
+}
+/* ====================================== SignUP ================================================ */
+.signup{
+  background-color: #9fa7a7;
+}
+.signup h1{
+  color: white;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+}
+.signup h2{
+  color: white;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 32px;
+} 
+.emailText{
+  width: 370px;
+  padding: 10px 15px;
+}
+.emailText:focus{
+  outline: none;
+}
+.subscribe{
+    color: white;
+    background-color: #131f66;
+    border: 1px solid #131f66;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 17px;
+    margin-top: 25px;
+    transition: 0.3s ease-in-out;
+    position: relative;
+    top: 2px;
+  }
+  .subscribe:hover{
+    color: #131f66;
+    background-color: white;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+  }
+/* ====================================== Footer ================================================ */
+.footer{
+  background-color: #242424;
+}
+.footer li,.footer a{
+  list-style: none;
+  color: #a0a0a0;
+  font-weight: 300px;
+}
+.footer li{
+  line-height: 22px;
+}
+.footer h1{
+  color: #a0a0a0;
+  font-size: 18px;
+  font-weight: 700;
+}
+.footerCopy{
+  background-color: #242424;
+  border-top: 1px solid #555555;
+}
+.footerCopy p{
+  color: #a0a0a0;
+  font-size: 17px;
+  font-weight: 300;
+}
+.socialIcons {
+  color: #555555;
+  border-radius: 8px;
+  transition: 0.2s ease-in-out;
+  font-size: 25px;
+}
+
+.socialIcons:hover {
+  color: white;
+  background: #131f66;
+  transition: 0.2s ease-in-out;
+}
+
+.footer-ul>li {
+  display: inline-block;
+  padding-left: 10px;
+} 
+/* ====================================== Media Queries ================================================ */ 
+@media(max-width:1199px){
+.bannerMain{
+    padding-left: 20px;
+}
+.emailText {
+  width: 289px;
+}
+}
+@media(max-width:1199px){
+  .customNav {
+    font-size: 15px;
+  }
+}
+@media(max-width:991px){
+  .navPosition{
+    position: static;
+  }
+  #navBtn {
+    outline: none;
+    border: 1px solid grey;
+}
+  .contactLi{
+    position: static;
+  }
+  .customNav {
+    font-size: 18px;
+  }
+  .carousel-inner{
+    padding: 80px 0;
+  }
+  br{
+    display: none;
+  }
+  .jobsection,.hireSection {
+    padding: 25px 17px;
+  }
+  .hireSection h1, .jobsection h1 {
+    font-size: 34px;
+  }
+  .approch{
+    background-image: none;
+    background-color: #131f66;
+    padding: 40px 0;
+  }
+  .services h2{
+    margin: 15px 0;
+  }
+  .moreDetail{
+    margin-top: 15px;
+  }
+  .testimonialP{
+    width: 100%;
+    padding: 0 20px;
+  }
+  .emailText{
+    width: 270px;
+  }
+  .subscribe {
+    margin-top: 8px;
+    top: 2px;
+    right: 15px;
+  }
+}
+@media(max-width:767px){
+  .carousel-inner{
+    background-image: none;
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#324249+0,7c929c+100 */
+    background-color: #324249; /* Old browsers */
+    background: -moz-linear-gradient(left,  #324249 0%, #7c929c 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  #324249 0%,#7c929c 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  #324249 0%,#7c929c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#324249', endColorstr='#7c929c',GradientType=1 ); /* IE6-9 */
+  }
+  .carousel-inner h1 {
+    font-size: 21px;
+  }
+  .carousel-inner p {
+    font-size: 15px;
+  }
+
+}
+@media(max-width:480px){
+.logo{
+  width: 186px;
+  }
+  .bannerBtn{
+    font-size: 18px;
+  }
+}
+
